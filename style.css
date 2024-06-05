@@ -12,6 +12,7 @@
 
 
 h3{
+margin-top: 15px;
     text-align: center;
     color: palevioletred;
     cursor: default;
@@ -24,19 +25,23 @@ input{
     margin: auto;
     border: 1px solid black;
     border-radius: 25px;
-    margin-bottom: 10px;
+    margin-top: 10px;
     cursor: text;
 }
 button{
     display: block;
     margin: 0 auto;
-    height: 25px;
+    /* margin-top: 15px; */
+    /* margin-top: auto; */
+    height: 30px;
+    width: 40%;
     border: 1px solid rgb(247, 247, 247);
+    border-radius: 35px;
     color: white;
-    border-radius: 45px;
-    font-size: 15px;
+    font-size: 16px;
     background-color: palevioletred;
     cursor: pointer;
+    margin-top: 1px;
 }
 button:hover{
     background-color: palevioletred;
@@ -48,7 +53,7 @@ button:hover{
 .or{
     text-align: center;
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: auto;
     display: block;
     cursor: default;
@@ -102,21 +107,20 @@ button:hover{
 
 .question{
     font-size: 15px;
-    margin: auto;
+    /* margin: auto; */
+    margin-top: 5px;
+    margin-bottom: 15px;
     text-align: right;
     color: #0f0f0f;
     display: block;
     margin-right: 15px;
-    margin-top: auto;
     text-align: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
-    font-size: 13px;
+    font-size: 11px;
     cursor: pointer;
 }
 .question:hover{
     color: #5898f8;
 }
-.hinhanh{
-    background-repeat: no-repeat;
-}
+
