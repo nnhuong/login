@@ -1,15 +1,17 @@
-.login{
+.sign_in{
     width: 300px;   
-    height: 350px;
+    height: 370px;
     border: 1px solid black;
     border-radius: 35px;
     background-color: white; 
-    margin: 100px auto;
-    /* margin-left: 600px ; */
-    /* margin-top: 100px; */
+    margin: 125 auto;
 
+    justify-content: center;
+    
+
+    /* margin-left: 300px;
+    margin-top: 120px; */
 }
-
 
 h3{
 margin-top: 15px;
@@ -29,12 +31,51 @@ input{
     margin-top: 8px;
     cursor: text;
 }
-button{
+
+.question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* .but{
+    font-size: 15px; 
+    margin: auto; 
+    margin-top: auto;
+    margin-bottom: 1px;
+    color: #0f0f0f;
+    
+    margin-left: 15px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 11px;
+    cursor: pointer;
+}  */
+.but {
+    margin-left: 20px;
+    font-size: 15px;
+    color: #0f0f0f;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 11px;
+    cursor: pointer;
+}
+.but:hover{
+    color: #5898f8;
+} 
+
+
+
+.button{
     display: block;
     margin: 0 auto;
     /* margin-top: 15px; */
     /* margin-top: auto; */
-    height: 30px;
+    height: 35px;
     width: 40%;
     border: 1px solid rgb(247, 247, 247);
     border-radius: 35px;
@@ -42,7 +83,8 @@ button{
     font-size: 16px;
     background-color: palevioletred;
     cursor: pointer;
-    margin-top: 1px;
+    margin-top: 8px;
+    margin-bottom: auto ;
 }
 button:hover{
     background-color: palevioletred;
@@ -51,6 +93,7 @@ button:hover{
     transform: scaleX(1.1) scaleY(1.1);
     opacity: 0.8;
 }
+
 .or{
     text-align: center;
     font-size: 15px;
@@ -59,40 +102,47 @@ button:hover{
     display: block;
     cursor: default;
 }
+
 .img1{
+    /* display: flex; */
     height: 35px;   
     width: 35px;
     margin: auto;
-    margin-bottom: 40px;
-    margin-right: 10px;
-    margin-left: 10px; 
+    /* margin-bottom: 70px; */
+    /* margin-right: 0; */
+    display: block;
+    margin-right: 3px;
+    margin-left: 5px; 
     padding: 10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 18px;
     cursor: pointer;  
     display: inline; 
     margin-top: 30px; 
     margin-left: 10px;
 }
-.img2{   
+
+.img2{ 
     height: 65px;   
     width: 75px;
-    margin: auto;
-    margin-right: auto; 
-    margin-left: auto;
+    margin: 0 3px;
+    margin-right: 0; 
+    margin-left: 0;
     padding: 10px;
     text-align: center;
     margin-top: auto;
     margin-bottom: 3px;
     cursor: pointer;
 }
+
 .img3{
+    display: flex;
     height: 43px;   
     width: 43px;
-    margin: auto;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin: auto; */
+    margin-right: 0;
+    margin-left: 3px;
     padding: 18px;
     text-align: center;
     display: inline;
@@ -100,21 +150,31 @@ button:hover{
     margin-bottom: 6px;
     cursor: pointer;
 }
+
 .img1{
     display: inline;
     margin-top: 30px;
     margin-left: 40px;
 }
 
-.question{
+
+/* .question {
     font-size: 15px;
-    /* margin: auto; */
-    margin-top: 5px;
-    margin-bottom: 15px;
     text-align: right;
     color: #0f0f0f;
-    display: block;
-    margin-right: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 11px;
+    cursor: pointer;
+} */
+.question{
+    font-size: 15px;
+    /* margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px; */
+    margin-right: 20px;
+    text-align: right;
+    color: #0f0f0f;
     text-align: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
@@ -123,4 +183,9 @@ button:hover{
 }
 .question:hover{
     color: #5898f8;
+}
+body{
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSfQ2wMb8W2tZyByfkc25bVaTPpN6TTLeK4_KPUs58Ah8Lj_lG3');
+    background-size: cover;
+    background-position: center;
 }

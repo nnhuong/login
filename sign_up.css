@@ -1,0 +1,85 @@
+.sign-up{
+    width: 330px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px auto;
+    background-color: white;
+    margin: 90 auto;
+    justify-content: center;
+}
+body{
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSfQ2wMb8W2tZyByfkc25bVaTPpN6TTLeK4_KPUs58Ah8Lj_lG3');
+    background-size: cover;
+    background-position: center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color:palevioletred;
+    font-size: 23px;
+    cursor: default;
+}
+
+input{
+    display: block;
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+button{
+    display: block;
+    width: 70px;
+    text-align: center;
+    margin: auto;
+    height: 35px;
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 35px;
+    background-color: palevioletred;
+    font-size: 15px;
+    color: #f8f5f5;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3049d6;
+    box-shadow: 0 0 10px #3049d6;
+    transform: scaleX(1.1) scaleY(1.1);
+    opacity: 0.8;
+}
+.or{
+    text-align: center;
+    cursor: default;
+    margin-bottom: 15px;
+}
+.sign-up-with{
+    margin-left: 15px;
+    cursor: default;
+    text-decoration: underline 1px;
+    margin-bottom: 5px;
+    margin-top: auto;
+}
+
+.account {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #0f0f0f;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 11px;
+    cursor: pointer;
+}
+.account:hover{
+    color: #5898f8;
+} 
+
+
