@@ -13,19 +13,20 @@
 
 h3{
 margin-top: 15px;
+    font-size: 23px;
     text-align: center;
     color: palevioletred;
     cursor: default;
 }
 
 input{
-    height: 35px;
+    height: 37px;
     width: 80%;
     display: block;
     margin: auto;
     border: 1px solid black;
     border-radius: 25px;
-    margin-top: 10px;
+    margin-top: 8px;
     cursor: text;
 }
 button{
@@ -123,4 +124,3 @@ button:hover{
 .question:hover{
     color: #5898f8;
 }
-
